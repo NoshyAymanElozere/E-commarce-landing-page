@@ -1,0 +1,748 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css"
+    integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous">
+  <link rel="stylesheet" href="css/sass/style.css">
+  <link rel="stylesheet" href="css/all.min.css">
+  <link rel="stylesheet" href="css/bootstrap.min.css">
+  <link rel="stylesheet" href="css/owl/owl.carousel.min.css">
+  <link rel="stylesheet" href="css/owl/owl.theme.default.min.css">
+</head>
+
+<body>
+  <!-- strat-header -->
+  <div class="header mt-4">
+    <div class="container">
+      <div class="row m-0">
+        <div class="col-lg-3">
+          <div class="log">
+            <img class="logo" src="images/logo.png" alt="">
+          </div>
+        </div>
+        <div class="col-lg-7 ">
+          <input type="email" class="form-control" placeholder="what are you loking for...">
+        </div>
+        <div class="col-lg-2 drop  ">
+          <div class="dropdown">
+            <a class="btn  dropdown-toggle" href="#" role="button" data-toggle="dropdown" aria-expanded="false">
+              USD
+            </a>
+            <div class="dropdown-menu ">
+              <a class="dropdown-item" href="#">USD</a>
+            </div>
+          </div>
+          <div class="dropdown">
+            <a class="btn  dropdown-toggle" href="#" role="button" data-toggle="dropdown" aria-expanded="false">
+              EN
+            </a>
+            <div class="dropdown-menu">
+              <a class="dropdown-item" href="#">EN</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- start-nav  -->
+    <div class="container mt-4">
+      <div class="row">
+        <div class="col-md-4">
+          <div class="list-group">
+            <a data-toggle="collapse" href="#clc" class="list-group-item list-group-item-action active ">
+              <i class="fa-solid fa-bars mr-3"></i>
+              Catagories
+            </a>
+            <div class="collapse show" id="clc">
+              <a href="#" class="list-group-item list-group-item-action"><img src="images/cat-01.png" alt="">fashon</a>
+              <a href="#" class="list-group-item list-group-item-action"><img src="images/cat-02.png" alt="">
+                Electronics</a>
+              <a href="#" class="list-group-item list-group-item-action"><img src="images/cat-05.png" alt=""> Home
+                Doctor</a>
+              <a class="list-group-item list-group-item-action disabled"><img src="images/cat-04.png" alt="">
+                Medicine</a>
+              <a class="list-group-item list-group-item-action disabled"><img src="images/cat-05.png" alt="">
+                Furniture</a>
+              <a class="list-group-item list-group-item-action disabled"><img src="images/cat-06.png" alt=""> Crafts</a>
+              <a class="list-group-item list-group-item-action disabled"><img src="images/cat-01.png" alt="">
+                Accessories</a>
+              <a class="list-group-item list-group-item-action disabled"><img src="images/cat-08.png" alt=""> Camera</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-8">
+          <nav class="navbar navbar-expand-lg navbar-light bg-light">
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown"
+              aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNavDropdown">
+              <ul class="navbar-nav">
+                <li class="nav-item dropdown">
+                  <a class="nav-link dropdown-toggle active" href="#" role="button" data-toggle="dropdown"
+                    aria-expanded="false">
+                    HOME
+                  </a>
+                  <div class="dropdown-menu">
+                    <a class="dropdown-item" href="#">Action</a>
+                  </div>
+                </li>
+                <li class="nav-item dropdown">
+                  <a class="nav-link dropdown-toggle" href="#" role="button" data-toggle="dropdown"
+                    aria-expanded="false">
+                    Shop
+                  </a>
+                  <div class="dropdown-menu">
+                    <a class="dropdown-item" href="#">Something </a>
+                  </div>
+                </li>
+                <li class="nav-item dropdown">
+                  <a class="nav-link dropdown-toggle" href="#" role="button" data-toggle="dropdown"
+                    aria-expanded="false">
+                    Pages
+                  </a>
+                  <div class="dropdown-menu">
+                    <a class="dropdown-item" href="#">Something</a>
+                  </div>
+                </li>
+                <li class="nav-item dropdown">
+                  <a class="nav-link dropdown-toggle" href="#" role="button" data-toggle="dropdown"
+                    aria-expanded="false">
+                    About
+                  </a>
+                  <div class="dropdown-menu">
+                    <a class="dropdown-item" href="#">Action</a>
+                  </div>
+                </li>
+                <li class="nav-item dropdown">
+                  <a class="nav-link dropdown-toggle" href="#" role="button" data-toggle="dropdown"
+                    aria-expanded="false">
+                    Contact
+                  </a>
+                  <div class="dropdown-menu">
+                    <a class="dropdown-item" href="#">Action</a>
+                  </div>
+                </li>
+              </ul>
+              <div class="shoping d-flex">
+                <a href="#" class="nav-linlk"><i class="fa-regular fa-heart"></i></a>
+                <a href="#" class="nav-linlk"><i class="fa-solid fa-cart-shopping"></i></a>
+                <a href="#" class="nav-linlk"><i class="fa-regular fa-user"></i></a>
+              </div>
+            </div>
+          </nav>
+          <!-- end-navbar  -->
+          <!-- start-slider  -->
+          <div class="row mt-4 pt-2">
+            <div class="col-md-8">
+              <div id="carouselExampleCaptions" class="carousel slide w-100 bg mt-2" data-ride="carousel">
+                <ol class="carousel-indicators">
+                  <li data-target="#carouselExampleCaptions" data-slide-to="0" class="active"></li>
+                  <li data-target="#carouselExampleCaptions" data-slide-to="1"></li>
+                  <li data-target="#carouselExampleCaptions" data-slide-to="2"></li>
+                </ol>
+                <div class="carousel-inner">
+                  <div class="carousel-item active">
+                    <div class="content d-flex">
+                      <p>Bloosom <br>
+                        Smat Watch</p>
+                      <img src="images/product-40.png" alt="...">
+                    </div>
+                  </div>
+                  <div class="carousel-item">
+                    <div class="content d-flex">
+                      <p>Bloosom <br>
+                        Smat Watch</p>
+                      <img src="images/product-40.png" alt="...">
+                    </div>
+                  </div>
+                  <div class="carousel-item">
+                    <div class="content d-flex">
+                      <p>Bloosom <br>
+                        Smat Watch</p>
+                      <img src="images/product-40.png" alt="...">
+                    </div>
+                  </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-target="#carouselExampleCaptions"
+                  data-slide="prev">
+                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                  <span class="sr-only">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-target="#carouselExampleCaptions"
+                  data-slide="next">
+                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                  <span class="sr-only">Next</span>
+                </button>
+              </div>
+            </div>
+            <div class="col-md-4 bag bg  text-center third mt-md-2 ">
+              <img class="img-fluid" src="images/product-41.png" alt="">
+              <span>Yantiti Leather Bages</span>
+              <p>$29.99</p>
+            </div>
+          </div>
+          <!-- end-slider  -->
+        </div>
+      </div>
+      <div class="row mt-4">
+        <div class="col-sm-6 col-md-3 box ">
+          <div class="content text-center bg bag">
+            <img src="images/service1.png" alt="">
+            <p>Fast & Secure </p>
+          </div>
+        </div>
+        <div class="col-sm-6 col-md-3 box ">
+          <div class="content text-center bg bag">
+            <img src="images/service2.png" alt="">
+            <p>100% Gurarntee </p>
+          </div>
+        </div>
+        <div class="col-sm-6 col-md-3 box ">
+          <div class="content text-center bg bag">
+            <img src="images/service4 (1).png" alt="">
+            <p>24 Hours return</p>
+          </div>
+        </div>
+        <div class="col-sm-6 col-md-3 box ">
+          <div class="content text-center bg bag">
+            <img src="images/service5.png" alt="">
+            <p>Next-level Pro</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- end-header -->
+  <!-- start-our-work  -->
+  <div class="our-work">
+    <div class="container mt-5">
+      <div class="row ">
+        <div class="txt-title">
+          <h3>This week</h3>
+          <h2 data-text="New&Arrivals">New&Arrivals</h2>
+        </div>
+        <div class="owl-carousel owl-theme ">
+          <div class="item">
+            <div class="card">
+              <img src="images/product-4.png" class="card-img-top">
+              <div class="card-body text-center">
+                <h5>mens winter jackets</h5>
+                <div class="siz">
+                  <p>Price : $40</p>
+                </div>
+
+              </div>
+            </div>
+          </div>
+          <div class="item">
+            <div class="card">
+              <img src="images/product-8.png" class="card-img-top">
+              <div class="card-body text-center">
+                <h5>mens winter jackets</h5>
+                <div class="siz">
+                  <p>Price : $50</p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="item">
+            <div class="card">
+              <img src="images/product-16.png" class="card-img-top">
+              <div class="card-body text-center">
+                <h5>mens winter jackets</h5>
+                <div class="siz">
+                  <p>Price : $49</p>
+                </div>
+
+              </div>
+            </div>
+          </div>
+          <div class="item">
+            <div class="card">
+              <img src="images/product-17.png" class="card-img-top">
+              <div class="card-body text-center">
+                <h5>mens winter jackets</h5>
+                <div class="siz">
+                  <p>Price : $80</p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="item">
+            <div class="card">
+              <img src="images/product-18.png" class="card-img-top">
+              <div class="card-body text-center">
+                <h5>mens winter jackets</h5>
+                <div class="siz">
+                  <p>Price : $28</p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="item">
+            <div class="card">
+              <img src="images/product-13.png" class="card-img-top">
+              <div class="card-body text-center">
+                <h5>mens winter jackets</h5>
+                <div class="siz">
+                  <p>Price : $40</p>
+                </div>
+
+              </div>
+            </div>
+          </div>
+          <div class="item">
+            <div class="card">
+              <img src="images/product-4.png" class="card-img-top">
+              <div class="card-body text-center">
+                <h5>mens winter jackets</h5>
+                <div class="siz">
+                  <p>Price : $40</p>
+                </div>
+
+              </div>
+            </div>
+          </div>
+          <div class="item">
+            <div class="card">
+              <img src="images/product-8.png" class="card-img-top">
+              <div class="card-body text-center">
+                <h5>mens winter jackets</h5>
+                <div class="siz">
+                  <p>Price : $40</p>
+                </div>
+
+              </div>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- end-our-work  -->
+
+  <!-- start-shoping-section -->
+  <div class="shopping">
+    <div class="container">
+      <div class="row shop">
+        <div class="col-md-6">
+          <p> Dont Miss!!</p>
+          <h3>Lets shopping <br>To day</h3>
+          <div class="d-flex box text-center">
+            <div class="content">
+              <span>16</span>
+              <p>Day</p>
+            </div>
+            <div class="content">
+              <span>12</span>
+              <p>Hrs</p>
+            </div>
+            <div class="content">
+              <span>39</span>
+              <p>Min</p>
+            </div>
+            <div class="content">
+              <span>57</span>
+              <p>Day`</p>
+            </div>
+          </div>
+          <div class="btn btn-primary">
+            Check it out!
+          </div>
+        </div>
+        <div class="col-md-6">
+          <img class="w-100" src="images/poster-05.png" alt="">
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- start-shoping-section -->
+
+  <!-- sec-sectionn-our-work  -->
+  <div class="our-work">
+    <div class="container mt-5">
+      <div class="row ">
+        <div class="txt-title">
+          <h3>This week</h3>
+          <h2 data-text="New&Arrivals">New&Arrival</h2>
+        </div>
+        <div class="owl-carousel owl-theme ">
+          <div class="item">
+            <div class="card bg">
+              <img src="images/product-4.png" class="card-img-top">
+              <div class="card-body text-center">
+                <h5>mens winter jackets</h5>
+                <div class="siz">
+                  <p>Price : $40</p>
+                </div>
+
+              </div>
+            </div>
+          </div>
+          <div class="item">
+            <div class="card bg">
+              <img src="images/product-8.png" class="card-img-top">
+              <div class="card-body text-center">
+                <h5>mens winter jackets</h5>
+                <div class="siz">
+                  <p>Price : $50</p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="item">
+            <div class="card bg">
+              <img src="images/product-16.png" class="card-img-top">
+              <div class="card-body text-center">
+                <h5>mens winter jackets</h5>
+                <div class="siz">
+                  <p>Price : $49</p>
+                </div>
+
+              </div>
+            </div>
+          </div>
+          <div class="item">
+            <div class="card bg">
+              <img src="images/product-17.png" class="card-img-top">
+              <div class="card-body text-center">
+                <h5>mens winter jackets</h5>
+                <div class="siz">
+                  <p>Price : $80</p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="item">
+            <div class="card bg">
+              <img src="images/product-18.png" class="card-img-top">
+              <div class="card-body text-center">
+                <h5>mens winter jackets</h5>
+                <div class="siz">
+                  <p>Price : $28</p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="item">
+            <div class="card bg">
+              <img src="images/product-13.png" class="card-img-top">
+              <div class="card-body text-center">
+                <h5>mens winter jackets</h5>
+                <div class="siz">
+                  <p>Price : $40</p>
+                </div>
+
+              </div>
+            </div>
+          </div>
+          <div class="item">
+            <div class="card bg">
+              <img src="images/product-4.png" class="card-img-top">
+              <div class="card-body text-center">
+                <h5>mens winter jackets</h5>
+                <div class="siz">
+                  <p>Price : $40</p>
+                </div>
+
+              </div>
+            </div>
+          </div>
+          <div class="item">
+            <div class="card bg ">
+              <img src="images/product-8.png" class="card-img-top">
+              <div class="card-body text-center">
+                <h5>mens winter jackets</h5>
+                <div class="siz">
+                  <p>Price : $40</p>
+                </div>
+
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- end-sectionn-our-work  -->
+  <!-- strat-user-section  -->
+  <div class="user">
+    <div class="container">
+      <div class="text pt-5">
+        <span>testimonials</span>
+        <h2 data-text="User&feedback">User&feedback</h2>
+      </div>
+      <div class="row pt-5 pb-5">
+        <div class=" col-sm-12 col-md-6 col-lg-4">
+          <div class="opinion">
+            <img src="images/image-1.png">
+            <div>
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Cumque rem alias aspernatur esse placeat, exercitationem
+                veritatis dicta. Libero suscipit voluptas molestiae ad dolor
+                ipsam tempora error minus necessitatibus! Animi, debitis?</p>
+              <h3>Christen Bernoly</h3>
+            </div>
+          </div>
+        </div>
+        <div class="col-sm-12 col-md-6 col-lg-4">
+          <div class="opinion">
+            <img src="images/image-2.png">
+            <div>
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Cumque rem alias aspernatur esse placeat, exercitationem
+                veritatis dicta. Libero suscipit voluptas molestiae ad dolor
+                ipsam tempora error minus necessitatibus! Animi, debitis?</p>
+              <h3>mero salah</h3>
+            </div>
+          </div>
+        </div>
+        <div class="col-sm-12 col-md-6 col-lg-4">
+          <div class="opinion">
+            <img src="images/image-3.png">
+            <div>
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Cumque rem alias aspernatur esse placeat, exercitationem
+                veritatis dicta. Libero suscipit voluptas molestiae ad dolor
+                ipsam tempora error minus necessitatibus! Animi, debitis?</p>
+              <h3>noshy Ayman</h3>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- end-user-section  -->
+  <!-- start-montgat-tagmil section -->
+  <div class="new-arr pt-5 pb-5">
+    <div class="container">
+      <div class="txt-title">
+        <h3>This weeks</h3>
+        <h2 data-text="New&Arrivals">New&Arrivals</h2>
+      </div>
+      <div class="row">
+        <div class="owl-carousel owl-theme ">
+          <div class="item">
+            <div class="card bg text-center">
+              <img class="w-100 " src="images/product-10.png">
+              <div class="form-check form-check-inline pt-4">
+                <input class="form-check-input bg-danger" type="radio" name="inlineRadioOptions" id="inlineRadio1"
+                  value="option1">
+                <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio1"
+                  value="option1">
+                <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio1"
+                  value="option1">
+              </div>
+              <p>Mens Tshirt </p>
+              <div class="price">
+                <span>$40</span>
+                <span>$30</span>
+              </div>
+              <div class="choce">
+                <i class="fa-regular fa-heart mr-3"></i>
+                <div class="btn mt-1">
+                  Add to Cart
+                </div>
+                <i class="fa-regular fa-eye ml-3"></i>
+              </div>
+            </div>
+          </div>
+          <div class="item">
+            <div class="card bg text-center ">
+              <img class="w-100 " src="images/product-11.png">
+              <div class="form-check form-check-inline pt-4">
+                <input class="form-check-input bg-danger" type="radio" name="inlineRadioOptions" id="inlineRadio1"
+                  value="option1">
+                <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio1"
+                  value="option1">
+                <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio1"
+                  value="option1">
+              </div>
+              <p>Mens Tshirt </p>
+              <div class="price">
+                <span>$40</span>
+                <span>$30</span>
+              </div>
+              <div class="choce">
+                <i class="fa-regular fa-heart mr-3"></i>
+                <div class="btn mt-1">
+                  Add to Cart
+                </div>
+                <i class="fa-regular fa-eye ml-3"></i>
+              </div>
+            </div>
+          </div>
+          <div class="item">
+            <div class="card bg text-center">
+              <img class="w-100 " src="images/product-13.png">
+              <div class="form-check form-check-inline pt-4">
+                <input class="form-check-input bg-danger" type="radio" name="inlineRadioOptions" id="inlineRadio1"
+                  value="option1">
+                <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio1"
+                  value="option1">
+                <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio1"
+                  value="option1">
+              </div>
+              <p>Mens Tshirt </p>
+              <div class="price">
+                <span>$40</span>
+                <span>$30</span>
+              </div>
+              <div class="choce">
+                <i class="fa-regular fa-heart mr-3"></i>
+                <div class="btn mt-1">
+                  Add to Cart
+                </div>
+                <i class="fa-regular fa-eye ml-3"></i>
+              </div>
+            </div>
+          </div>
+          <div class="item">
+            <div class="card bg text-center">
+              <img class="w-100 " src="images/product-10.png">
+              <div class="form-check form-check-inline pt-4">
+                <input class="form-check-input bg-danger" type="radio" name="inlineRadioOptions" id="inlineRadio1"
+                  value="option1">
+                <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio1"
+                  value="option1">
+                <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio1"
+                  value="option1">
+              </div>
+              <p>Mens Tshirt </p>
+              <div class="price">
+                <span>$40</span>
+                <span>$30</span>
+              </div>
+              <div class="choce">
+                <i class="fa-regular fa-heart mr-3"></i>
+                <div class="btn mt-1">
+                  Add to Cart
+                </div>
+                <i class="fa-regular fa-eye ml-3"></i>
+              </div>
+            </div>
+          </div>
+          <div class="item">
+            <div class="card bg text-center">
+              <img class="w-100 " src="images/product-11.png">
+              <div class="form-check form-check-inline pt-4">
+                <input class="form-check-input bg-danger" type="radio" name="inlineRadioOptions" id="inlineRadio1"
+                  value="option1">
+                <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio1"
+                  value="option1">
+                <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio1"
+                  value="option1">
+              </div>
+              <p>Mens Tshirt </p>
+              <div class="price">
+                <span>$40</span>
+                <span>$30</span>
+              </div>
+              <div class="choce">
+                <i class="fa-regular fa-heart mr-3"></i>
+                <div class="btn mt-1">
+                  Add to Cart
+                </div>
+                <i class="fa-regular fa-eye ml-3"></i>
+              </div>
+            </div>
+          </div>
+          <div class="item ">
+            <div class="card bg  text-center">
+              <img class="w-100 " src="images/product-13.png">
+              <div class="form-check form-check-inline pt-4">
+                <input class="form-check-input bg-danger" type="radio" name="inlineRadioOptions" id="inlineRadio1"
+                  value="option1">
+                <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio1"
+                  value="option1">
+                <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio1"
+                  value="option1">
+              </div>
+              <p>Mens Tshirt </p>
+              <div class="price">
+                <span>$40</span>
+                <span>$30</span>
+              </div>
+              <div class="choce">
+                <i class="fa-regular fa-heart mr-3"></i>
+                <div class="btn mt-1">
+                  Add to Cart
+                </div>
+                <i class="fa-regular fa-eye ml-3"></i>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- end-montgat-tagmil section -->
+  <!-- strat-footer  -->
+  <div class="container mb-5">
+    <div class="footer pt-5 pb-5">
+      <div class="massege pt-4">
+        <a href="#"> <i class="fa-solid fa-envelope"></i></a>
+        <span>Newsletter</span>
+      </div>
+      <h4 class="pt-2 ">Get weekly update</h4>
+      <div class="email pt-3  pb-5">
+        <input class="form-control" type="text" placeholder="exampl@gmail.com">
+        <div class="btn">
+          subscripe
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <script src="js/all.min.js"></script>
+  <script src="js/jquery-3.6.0.min.js"></script>
+  <script src="js/owl.carousel.min.js"></script>
+  <script src="js/bootstrap.bundle.min.js"></script>
+
+  <script>
+    $('.owl-carousel').owlCarousel({
+      rtl: true,
+      loop: true,
+      margin: 15,
+      nav: true,
+      responsive: {
+        0: {
+          items: 1
+        },
+        600: {
+          items: 2
+        },
+        1000: {
+          items: 4
+        }
+      }
+    })
+  </script>
+
+</body>
+
+</html>
